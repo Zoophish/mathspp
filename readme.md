@@ -22,6 +22,17 @@ To use, just `#include <mathspp/maths.hpp>`.
 |  Affine3  | `affine3<Real>`  |
 |  Bounds   | `bounds<Real>`   |
 
+**Template Constants**
+
+|  Constant  |
+|------------|
+|  PI        |
+|  PI2       | 
+|  INV_PI    | 
+|  INV_PI2   | 
+|  E_NUM     |
+|  MAX_REAL  |
+|  MIN_REAL  |
 
 **Utility functions**
 
@@ -42,3 +53,4 @@ To use, just `#include <mathspp/maths.hpp>`.
 |  WorldToLocal(*v, n, b, t*)                       |
 |  LocalToWorld(*v, n, b, t*)                       |
 |  Union(*b1, b2*)                                  |
+|  BITFLAG(n)                                       |
