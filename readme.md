@@ -14,13 +14,13 @@ To use, just `#include <mathspp/maths.hpp>`.
 
 ** Generic Types **
 
-|  Type     |  Description   |
-|-----------|:--------------:|
-|   Real    | float          |
-|   Vec3    | vec3<Real>     |
-|   Vec2    | vec2<Real>     |
-|  Affine3  | affine3<Real>  |
-|  Bounds   | bounds<Real>   |
+|  Type     |   Description    |
+|-----------|:----------------:|
+|   Real    | `float`          |
+|   Vec3    | `vec3<Real>`     |
+|   Vec2    | `vec2<Real>`     |
+|  Affine3  | `affine3<Real>`  |
+|  Bounds   | `bounds<Real>`   |
 
 
 **Utility functions**
