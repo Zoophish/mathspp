@@ -1,13 +1,26 @@
 **Some C++ header only mathematical type templates and utilities I use in personal projects.**
 
+To use, just `#include <mathspp/maths.hpp>`.
+
+
 **Template Types**
 
-|  Type   |                   Description                  |
-|---------|:----------------------------------------------:|
-|  vec3   | 3D Vector                                      |
-|  vec2   | 2D Vector                                      |
-| affine3 | 3x3 affine transformation matrix & translation |
-| bounds  | 3D axis-aligned bounding box                   |
+|  Type     |                   Description                  |
+|-----------|:----------------------------------------------:|
+|  vec3<>   | 3D Vector                                      |
+|  vec2<>   | 2D Vector                                      |
+| affine3<> | 3x3 affine transformation matrix & translation |
+| bounds<>  | 3D axis-aligned bounding box                   |
+
+** Generic Types **
+
+|  Type     |  Description   |
+|-----------|:--------------:|
+|   Real    | float          |
+|   Vec3    | vec3<Real>     |
+|   Vec2    | vec2<Real>     |
+|  Affine3  | affine3<Real>  |
+|  Bounds   | bounds<Real>   |
 
 
 **Utility functions**
