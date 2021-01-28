@@ -12,7 +12,7 @@ To use, just `#include <mathspp/maths.hpp>`.
 | affine3<> | 3x3 affine transformation matrix & translation |
 | bounds<>  | 3D axis-aligned bounding box                   |
 
-** Generic Types **
+**Generic Types**
 
 |  Type     |   Description    |
 |-----------|:----------------:|
